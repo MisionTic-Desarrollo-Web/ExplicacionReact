@@ -12,3 +12,24 @@ body{
 .logo{
     height: 60px;
 }
+
+.button{
+    columns: white;
+    border: 0px;    
+    padding: 10px;
+    border-radius: 10px;    
+    font-weight: bolder;   
+}
+
+.main-button{
+    background-color: #3BB2BF;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-button:hover{
+    box-shadow: 1px 1px #80BFCC;
+}
