@@ -14,7 +14,7 @@ body{
 }
 
 .button{
-    columns: white;
+    color: white;
     border: 0px;    
     padding: 10px;
     border-radius: 10px;    
