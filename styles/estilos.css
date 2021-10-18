@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+
+.navbar{
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 60px;
+}
