@@ -33,3 +33,11 @@ body{
 .main-button:hover{
     box-shadow: 1px 1px #80BFCC;
 }
+
+.secondary-button{
+    background-color: #145873;
+}
+
+.secondary-button:hover{
+    box-shadow: 1px 1px #80BFCC;
+}
