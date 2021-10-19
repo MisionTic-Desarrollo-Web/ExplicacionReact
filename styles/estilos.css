@@ -41,3 +41,14 @@ body{
 .secondary-button:hover{
     box-shadow: 1px 1px #80BFCC;
 }
+
+.busqueda{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.enter{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
