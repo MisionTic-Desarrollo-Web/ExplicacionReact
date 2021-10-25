@@ -1,0 +1,114 @@
+body{
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+
+.navbar{
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(192, 215, 236);
+  margin-top: 0px;
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 1px gray;
+}
+
+.logo{
+  height: 60px;
+}
+
+.button{
+  color: white;
+  border: 0px;    
+  padding: 10px;
+  border-radius: 10px;    
+  font-weight: bolder;   
+}
+
+.main-button{
+  background-color: #3BB2BF;
+}
+
+.button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-button:hover{
+  box-shadow: 1px 1px #80BFCC;
+}
+
+.secondary-button{
+  background-color: #145873;
+}
+
+.secondary-button:hover{
+  box-shadow: 1px 1px #80BFCC;
+}
+
+.busqueda{
+  background-color: white;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.enter{
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 250px;
+}
+
+.lupa:hover{
+  color: #3BB2BF;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.beerdContainerCard{
+  display: flex;
+}
+
+.beerdcard{
+  margin: 10px;
+  background-color: gray;
+  box-shadow: 5px 10px 5px gray;    
+  border-radius: 10px;    
+}
+
+.contenedorImagen{
+  width: 240px;
+  height: 350px;
+  display:flex;
+  margin-bottom: 50px;    
+  
+}
+
+.contenedorImagen > img{
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.contenedorImagen:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.breedTitle{
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  font-size: x-large;
+  display: flex;
+  text-align: start;
+}
