@@ -1,3 +1,4 @@
+import CardRazasGatos from './components/CardRazasGatos';
 import logo from './logo.svg';
 import './styles/styles.css';
 import gatoPersa from './media/gato-persa-solid.jpg';
@@ -38,15 +39,5 @@ function App() {
   );
 }
 
-function CardRazasGatos({nombreRazas, imagen}) {
-    return (
-        <li className="beerdcard " >               
-            <div className="contenedorImagen">
-                <img src={imagen} alt={nombreRazas}/>
-            </div>
-            <span className="breedTitle">{nombreRazas}</span>                                                  
-        </li>
-    );
-}
 
 export default App;
