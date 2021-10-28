@@ -112,3 +112,15 @@ ul{
   display: flex;
   text-align: start;
 }
+
+.background{
+  background-color: rgb(63, 104, 141);
+}
+
+.backgroundGris{
+  background-color: gray;
+}
+
+.backgroundAzul{
+  background-color: blue;
+}
