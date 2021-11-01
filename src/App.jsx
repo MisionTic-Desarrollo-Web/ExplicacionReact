@@ -8,6 +8,8 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import { GatoPersa } from 'pages/gatoPersa';
+import Layout from 'Layouts/Layout';
 
 
 
@@ -15,7 +17,11 @@ function App() {
   return (
     <div classNameName="App">
       <Router>
-          <Switch>              
+        <Layout>
+          <Switch>
+            <Route path='/gatoPersa'>
+                  <GatoPersa/>
+              </Route>
               <Route path='/gatoSiames'>
                   <GatoSiamesInfoPage/>
               </Route>
@@ -23,6 +29,7 @@ function App() {
                     <Index/>
               </Route>
           </Switch>
+          </Layout>
         </Router>
       
     </div>

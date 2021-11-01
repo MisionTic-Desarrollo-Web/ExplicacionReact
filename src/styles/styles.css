@@ -6,6 +6,28 @@ ul{
   list-style: none;
 }
 
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main{
+  height: 100%;
+}
+
+.mainContainer > Footer{  
+  background-color: #145873;
+  padding: 10px;  
+}
+
+.mainContainer > Header{
+  overflow-y: hidden;
+}
+
+.mainContainer > main{
+  overflow-y: scroll;
+}
 
 .navbar{
   padding: 20px;
